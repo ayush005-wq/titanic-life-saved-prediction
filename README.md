@@ -44,11 +44,11 @@ alone: Whether the passenger was alone (True/False)
 
 To get started with the project, clone the repository and install the necessary dependencies.
 
-'''ruby
+```ruby
 git clone https://github.com/yourusername/titanic-survival-prediction.git
 cd titanic-survival-prediction
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
 
@@ -58,13 +58,13 @@ Prepare the Data: Ensure the dataset is in the correct format and preprocessed. 
 
 Train the Model: Run the script to train the logistic regression model.
 
-'''ruby
+```ruby
 python train_model.py
-'''
+```
 Make Predictions: Use the trained model to make predictions on new data.
-'''ruby
+```ruby
 python predict.py --input data/new_passengers.csv
-'''
+```
 ## Results
 
 The logistic regression model provides a prediction for each passenger's survival. The model's performance can be evaluated using metrics such as accuracy, precision, recall, and F1-score.
