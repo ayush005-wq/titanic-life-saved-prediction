@@ -67,7 +67,7 @@ python predict.py --input data/new_passengers.csv
 ```
 ## Results
 
-The logistic regression model provides a prediction for each passenger's survival. The model's performance can be evaluated using metrics such as accuracy, precision, recall, and F1-score.
+The logistic regression model provides a prediction for each passenger's survival. The model's performance can be evaluated using metrics such as accuracy, precision, recall, and F1-score.My models F-1 score came out to be 96%.
 
 ## Contributing
 
